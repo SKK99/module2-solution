@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 #heading{
   text-align: center;
@@ -32,6 +33,16 @@ p{
   margin-top: 30px;
   padding: 10px;
 }
+.col-1 .title{
+  background-color: red;
+}
+.col-2 .title{
+  background-color: yellow;
+}
+.col-3 .title{
+  background-color: purple;
+}
+
 @media (min-width: 992px) {
   .col{
     width: 33%;
